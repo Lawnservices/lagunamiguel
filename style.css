@@ -1,0 +1,82 @@
+.content{
+  width: 98%;
+  height: 400px;
+}
+.content p{
+  text-align: right;
+  padding: 12px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight:400;
+  color: #00bb00;
+}
+.content .fotos{
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 100px;
+}
+.content .fotos h2{
+  padding: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #003349;
+}
+.content .fotos h2 a{
+  text-decoration: none;
+  color: #00bb00;
+}
+.content .fotos img{
+  width: 360px;
+  height: 260px;
+   
+}
+.list{
+  margin-top: 100px;
+  width: 98%;
+  
+  
+}
+.list h3{
+  text-align: justify;
+  padding: 12px;
+  margin-left: 12px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.list ol{
+  float: inline-start;
+  padding: 10px;
+}
+.list ol li{
+  padding: 10px;
+  color: #003349;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 18px;
+  
+}
+footer{
+  clear: both;
+  width: 100%;
+  height: 120px;
+  margin-top: 130px;
+  background-color: #003349;
+}
+footer .pie{
+  width: 80%;
+  height: 130px;
+  margin: auto;
+}
+footer .pie p{
+  text-align:right;
+  padding: 10px;
+  color: #f2f2f2;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media (min-width:230px) and (max-width:800px){
+  .list{
+  margin-top: 1000px;
+  width: 98%;
+  
+  
+}
+}
